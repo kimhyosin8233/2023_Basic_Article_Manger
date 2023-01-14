@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-
 	public static void main(String[] args) {
 		
 		System.out.println("== 프로그램 시작 ==");
@@ -13,7 +12,7 @@ public class Main {
 		
 		int lastArticleId = 0;
 		
-		List<Article> article = new ArrayList<>();
+		List<Article> articles = new ArrayList<>();
 		
 		while(true) {
 			
